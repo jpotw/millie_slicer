@@ -7,6 +7,7 @@ export default [
                     "jest": true
                 }
             }
-        ]
+        ],
+        "extends": "next/core-web-vitals",
     }
 ];
