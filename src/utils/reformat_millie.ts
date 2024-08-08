@@ -1,12 +1,12 @@
-// function deleteNewLine(input:string): string[] {
-//     const input_list: string[] =  input.split('\n').slice()
-//     for (var i=0; i < input_list.length; i++) {
-//         if (input_list[i] === "") {
-//             input_list.splice(i,1);
-//         }
-//     }
-//     return input_list
-// }
+function deleteNewLine(input:string): string[] {
+    const input_list: string[] =  input.split('\n').slice()
+    for (var i=0; i < input_list.length; i++) {
+        if (input_list[i] === "") {
+            input_list.splice(i,1);
+        }
+    }
+    return input_list
+}
 
 
 function extractTitle(input:string): string {
