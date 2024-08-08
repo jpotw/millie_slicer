@@ -22,7 +22,6 @@ const Form = () => {
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
                     className="w-full p-2 mb-4 text-black border rounded"
-                    rows="4"
                 />
                 <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded">Submit</button>
             </form>
